@@ -4,22 +4,22 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: -5931536533463542941
-    second: figurix-sprite-bg
+    second: figurix-sprites-bg
   - first:
       213: -4517812107378137759
-    second: figurix-sprites_border
+    second: figurix-sprites-border
   - first:
       213: -4580522127035579027
-    second: figurix-sprites-f-1
+    second: figurix-sprites-f1
   - first:
       213: -4192859646772405816
-    second: figurix-sprites-f-2
+    second: figurix-sprites-f2
   - first:
       213: 5983986880621529528
-    second: figurix-sprites-f-3
+    second: figurix-sprites-f3
   - first:
       213: 592894658667107632
-    second: figurix-sprites-f-4
+    second: figurix-sprites-f4
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -116,7 +116,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: figurix-sprite-bg
+      name: figurix-sprites-bg
       rect:
         serializedVersion: 2
         x: 6
@@ -137,7 +137,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: figurix-sprites_border
+      name: figurix-sprites-border
       rect:
         serializedVersion: 2
         x: 215
@@ -158,13 +158,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: figurix-sprites-f-1
+      name: figurix-sprites-f1
       rect:
         serializedVersion: 2
         x: 11
-        y: 14
-        width: 130
-        height: 130
+        y: 6
+        width: 125
+        height: 129
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 15}
@@ -179,7 +179,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: figurix-sprites-f-2
+      name: figurix-sprites-f2
       rect:
         serializedVersion: 2
         x: 132
@@ -200,7 +200,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: figurix-sprites-f-3
+      name: figurix-sprites-f3
       rect:
         serializedVersion: 2
         x: 256
@@ -221,7 +221,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: figurix-sprites-f-4
+      name: figurix-sprites-f4
       rect:
         serializedVersion: 2
         x: 385
