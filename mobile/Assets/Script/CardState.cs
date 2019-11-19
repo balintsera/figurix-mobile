@@ -16,7 +16,7 @@ public class CardState : MonoBehaviour
         f2,
         f3
     }
-    public string active = Enum.GetName(typeof(spriteNames), 0);
+    public string display = Enum.GetName(typeof(spriteNames), 0);
     private string cache;
 
     public string SpriteSheetName = "figurix-sprites";
@@ -39,7 +39,7 @@ public class CardState : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (active != cache && spriteSheet.ContainsKey(fullName))
+        if (display != cache && spriteSheet.ContainsKey(fullName))
         {
             sr.sprite = spriteSheet[fullName];
             cache = fullName;
@@ -57,6 +57,6 @@ public class CardState : MonoBehaviour
     }
 
     private string fullName {
-        get => "figurix-sprites-" + active;
+        get => "figurix-sprites-" + display;
     }
 }
