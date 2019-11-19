@@ -29,22 +29,21 @@ public class CardState : MonoBehaviour
         Debug.Log(sr.sprite);
         //sr.sprite = GetComponent<SpriteRenderer>("figurix-sprites_border");
         LoadSpriteSheet();
-        foreach(var keyValuePair in spriteSheet)
+        foreach (var keyValuePair in spriteSheet)
         {
             Debug.Log(keyValuePair.Key);
-           
+
         }
     }
 
     // Update is called once per frame
     void Update()
     {
-        var fullName = "figurix-sprites-" + active;
         if (active != cache && spriteSheet.ContainsKey(fullName))
         {
             sr.sprite = spriteSheet[fullName];
             cache = fullName;
-        }        
+        }
     }
 
 
@@ -55,5 +54,9 @@ public class CardState : MonoBehaviour
         // Note: The file specified must exist in a folder named Resources
         var sprites = Resources.LoadAll<Sprite>(this.SpriteSheetName);
         spriteSheet = sprites.ToDictionary(x => x.name, x => x);
+    }
+
+    private string fullName {
+        get => "figurix-sprites-" + active;
     }
 }
