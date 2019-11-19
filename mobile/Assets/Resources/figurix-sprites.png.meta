@@ -1,0 +1,283 @@
+fileFormatVersion: 2
+guid: d2ad33156e0ec48a89f26548a024e88c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5931536533463542941
+    second: figurix-sprite-bg
+  - first:
+      213: -4517812107378137759
+    second: figurix-sprites_border
+  - first:
+      213: -4580522127035579027
+    second: figurix-sprites-f-1
+  - first:
+      213: -4192859646772405816
+    second: figurix-sprites-f-2
+  - first:
+      213: 5983986880621529528
+    second: figurix-sprites-f-3
+  - first:
+      213: 592894658667107632
+    second: figurix-sprites-f-4
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 146, z: 290, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: 0
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: figurix-sprite-bg
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 153
+        width: 207
+        height: 207
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49489fe3bb5af4c32af8666b5de620c6
+      internalID: -5931536533463542941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: figurix-sprites_border
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 145
+        width: 223
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32280f6627d4740d5b772a583666943b
+      internalID: -4517812107378137759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: figurix-sprites-f-1
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 14
+        width: 130
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 15}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69585a8f35d464a62986c462e8becdc2
+      internalID: -4580522127035579027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: figurix-sprites-f-2
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 7
+        width: 130
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01c6d6a73ba5c416c921fe67a19c80b6
+      internalID: -4192859646772405816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: figurix-sprites-f-3
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 4
+        width: 130
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 227cce00f12f04f249d8e58511e13d74
+      internalID: 5983986880621529528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: figurix-sprites-f-4
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 9
+        width: 120
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea8c543ae73ce490faa5e4aa3a5c7532
+      internalID: 592894658667107632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline:
+    - - {x: -249.5, y: -38}
+      - {x: -252.5, y: 184}
+      - {x: -39.5, y: 183}
+      - {x: -37.5, y: -36}
+    - - {x: -34.5, y: -42}
+      - {x: -40.5, y: 182}
+      - {x: 184.5, y: 184}
+      - {x: 184.5, y: -40}
+    - - {x: -243.5, y: -177}
+      - {x: -243.5, y: -50}
+      - {x: -127.5, y: -50}
+      - {x: -127.5, y: -179}
+    - - {x: -117.5, y: -179}
+      - {x: -117.5, y: -46}
+      - {x: 9.5, y: -46}
+      - {x: 9.5, y: -179}
+    - - {x: 9.5, y: -172}
+      - {x: 9.5, y: -48}
+      - {x: 132.5, y: -48}
+      - {x: 132.5, y: -172}
+    - - {x: 135.5, y: -174}
+      - {x: 135.5, y: -55}
+      - {x: 247.5, y: -55}
+      - {x: 245.5, y: -176}
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
