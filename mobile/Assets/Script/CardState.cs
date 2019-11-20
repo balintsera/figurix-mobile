@@ -7,7 +7,7 @@ using System;
 public class CardState : MonoBehaviour
 {
     SpriteRenderer sr;
-    enum spriteNames
+    public enum SpriteNames
     {
         bg,
         border,
@@ -16,7 +16,7 @@ public class CardState : MonoBehaviour
         f2,
         f3
     }
-    public string display = Enum.GetName(typeof(spriteNames), 0);
+    public string display = Enum.GetName(typeof(SpriteNames), 0);
     private string cache;
 
     public string SpriteSheetName = "figurix-sprites";

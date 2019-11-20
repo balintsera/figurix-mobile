@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -10,22 +11,29 @@ public class FigurixManager : MonoBehaviour
 
     private SpriteRenderer bgSprite;
     private CardState figureState;
+    private SpriteRenderer borderSprite;
     // Start is called before the first frame update
     void Start()
     {
         figureState = figure.GetComponent<CardState>();
-        figureState.display = "f3";
+        figureState.display = Enum.GetName(typeof(CardState.SpriteNames), 3);
 
         bgSprite = bg.GetComponent<SpriteRenderer>();
-
+        borderSprite = border.GetComponent<SpriteRenderer>();
         //Set the GameObject's Color quickly to a set Color (blue)
         SetBackround(Color.red);
+        SetBorder(Color.white);
     }
 
     // Update is called once per frame
     void Update()
     {
         
+    }
+
+    public void SetBorder(Color color)
+    {
+        borderSprite.color = color;
     }
 
     public void SetBackround(Color color)
@@ -37,4 +45,5 @@ public class FigurixManager : MonoBehaviour
     {
         figureState.display = name;
     }
+
 }
