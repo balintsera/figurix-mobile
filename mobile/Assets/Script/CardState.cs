@@ -11,10 +11,10 @@ public class CardState : MonoBehaviour
     {
         bg,
         border,
-        f0,
         f1,
         f2,
-        f3
+        f3,
+        f4
     }
     public string display = Enum.GetName(typeof(SpriteNames), 0);
     private string cache;
@@ -39,7 +39,7 @@ public class CardState : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (display != cache && spriteSheet.ContainsKey(fullName))
+        if (fullName != cache && spriteSheet.ContainsKey(fullName))
         {
             sr.sprite = spriteSheet[fullName];
             cache = fullName;
