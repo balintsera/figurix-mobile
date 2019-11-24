@@ -22,7 +22,7 @@ public class FigurixManager : MonoBehaviour
         borderSprite = border.GetComponent<SpriteRenderer>();
         //Set the GameObject's Color quickly to a set Color (blue)
         SetBackround(Color.red);
-        SetBorder(Color.white);
+        SetBorder(Color.green);
     }
 
     // Update is called once per frame
