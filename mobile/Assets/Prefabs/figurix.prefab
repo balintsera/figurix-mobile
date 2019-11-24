@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3816040033447472885}
   - component: {fileID: 3816040033447472886}
+  - component: {fileID: 8173454888781021481}
   m_Layer: 0
   m_Name: figurix
   m_TagString: Untagged
@@ -49,6 +50,22 @@ MonoBehaviour:
   bg: {fileID: 6750200791914222845}
   border: {fileID: 3816040034497488131}
   figure: {fileID: 6750200792481954915}
+--- !u!58 &8173454888781021481
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3816040033447472884}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 2.065773}
+  serializedVersion: 2
+  m_Radius: 102.634315
 --- !u!1001 &3816040032931756385
 PrefabInstance:
   m_ObjectHideFlags: 0
